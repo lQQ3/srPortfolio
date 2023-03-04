@@ -1,0 +1,45 @@
+body {
+	background: #E8F9F3;
+	background-image: url("assets/forestPath.jpg");
+	color: #000000;
+	padding: 25px;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+img {
+	width: 320px;
+	margin-inline-end: 4rem;
+}
+
+section {
+	display: flex;
+}
+
+div {
+	text-align: center;
+	background-color: #E8F9F3;
+	opacity: .50; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+    filter: alpha(opacity=50); /* IE lt 8 */
+    -ms-filter: "alpha(opacity=50)"; /* IE 8 */
+    -khtml-opacity: .50; /* Safari 1.x */
+    -moz-opacity: .50; /* FF lt 1.5, Netscape */
+}
+
+a {
+	text-decoration: none;
+	color: #E8F9F3;
+	background: #1348DA;
+	padding: 0 1rem;
+	height: 2.5rem;
+	display: inline-flex;
+	align-items: center;
+	border-radius: 0.5rem;
+}
