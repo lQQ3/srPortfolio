@@ -16,11 +16,6 @@ h2 {
 	color: #FFFFFF;
 }
 
-img {
-	width: 320px;
-	margin-inline-end: 4rem;
-}
-
 section {
 	display: flex;
 }
@@ -65,4 +60,15 @@ td {
 	display: inline-flex;
 	align-items: center;
 	border-radius: 0.5rem;
+}
+
+@media (max-width: 1024px)
+{
+	body {
+		flex-direction: column;
+	}
+
+	img {
+		width: 100%;
+	}
 }
