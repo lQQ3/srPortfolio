@@ -54,6 +54,10 @@ td {
 	text-align: center;
 }
 
+.headshot {
+	margin-inline-end: 2rem;
+}
+
 .button {
 	text-decoration: none;
 	color: #E8F9F3;
