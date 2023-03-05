@@ -1,6 +1,9 @@
 body {
 	background: #E8F9F3;
 	background-image: url("assets/forestPath.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
 	color: #000000;
 	padding: 25px;
 	font-family: sans-serif;
@@ -61,6 +64,7 @@ td {
 	align-items: center;
 	border-radius: 0.5rem;
 }
+
 
 @media (max-width: 1024px)
 {
