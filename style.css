@@ -1,6 +1,6 @@
 body {
 	background: #E8F9F3;
-	background-image: url("assets/forestPath.jpg");
+	background-image: url("assets/underwater.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	width: 100%;
@@ -19,8 +19,13 @@ h2 {
 	color: #FFFFFF;
 }
 
+img {
+	margin-inline-end: 2rem;
+}
+
 section {
 	display: flex;
+	width: 95%;
 }
 
 .headshot {
