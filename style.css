@@ -1,6 +1,6 @@
 body {
 	background: #E8F9F3;
-	background-image: url("assets/galleryBackground.jpg");
+	background-image: url("assets/lake.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	width: 100%;
@@ -11,12 +11,10 @@ body {
 
 h1 {
 	font-size: 4rem;
-	color: #FFFFFF;
 }
 
 h2 {
 	font-size: 2rem;
-	color: #FFFFFF;
 }
 
 img {
@@ -34,7 +32,7 @@ section {
 
 div {
 	text-align: center;
-	background-color: #E8F9F3;
+
 	opacity: .50; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
     filter: alpha(opacity=50); /* IE lt 8 */
     -ms-filter: "alpha(opacity=50)"; /* IE 8 */
