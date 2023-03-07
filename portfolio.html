@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shawn Rice's Portfolio</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<!-- Begin Navbar -->
+<header class="header">
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">Shawn Rice</a>
+    <ul class="nav-menu">
+      <li class="nav-item">
+        <a href="aboutMe.html" class="nav-link">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a href="services.html" class="nav-link">Services</a>
+      </li>
+      <li class="nav-item">
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a href="contact.html" class="nav-link">Contact</a>
+      </li>
+    </ul>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>
+</header>
+<!-- End Navbar -->
+<style>
+  .column {
+    float: left;
+    width: 50%;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+</style>
+<div class="row">
+  <div class="column"><a href="automation.html"><img src="assets/icons/monitor.png" height="32" width="32"/>Data Analysis</a></div>
+  <div class="column"><a href="analytics.html"><img src="assets/icons/data.png" height="32" width="32"/>Data Analytics</a></div>
+</div>
+<div class="row">
+  <div class="column"><a href="code.html"><img src="assets/icons/app-development.png" height="32" width="32"/>Full-stack Development</a></div>
+  <div class="column"><a href="project.html"><img src="assets/icons/project.png" height="32" width="32"/>Project Management</a></div>
+</div>
+<div class="row">
+  <div class="column"><a href="netArch.html"><img src="assets/icons/network.png" height="32" width="32"/>Network Engineering</a></div>
+  <div class="column"><a href="security.html"><img src="assets/icons/cyber-security.png" height="32" width="32"/>Systems Security</a></div>
+</div>
+<div class="row">
+  <div class="column"><a href="ai.html"><img src="assets/icons/ai.png" height="32" width="32"/>Artificial Intelligence, Machine & Deep Learning,<p>Computer Vision, NLP</p></a></div>
+  <div class="column"><a href="robogarden.html"><img src="assets/icons/dashboard.png" height="32" width="32"/>Automation, Dashboards, Logging and Infographics</a></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
