@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Shawn Rice's Portfolio</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +20,7 @@
         <a href="aboutMe.html" class="nav-link">About Me</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">Galleries Hub</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
       </li>
       <li class="nav-item">
         <a href="contact.html" class="nav-link">Contact</a>
@@ -33,23 +34,37 @@
   </nav>
 </header>
 <!-- End Navbar -->
-<table>
-  <tr>
-    <td><img src="assets/icons/monitor.png" height="32" width="32"/>Data Analysis</td>
-    <td><img src="assets/icons/data.png" height="32" width="32"/>Data Analytics</td>
-  </tr>
-  <tr>
-    <td><img src="assets/icons/ai.png" height="32" width="32"/>Artificial Intelligence, Machine & Deep Learning, Computer Vision, NLP</td>
-    <td><img src="assets/icons/dashboard.png" height="32" width="32"/>Automation, Dashboards, Logging and Infographics</td>
+<style>
+  .column {
+    float: left;
+    width: 25%;
+  }
 
-  </tr>
-    <td><a href="code.html"><img src="assets/icons/app-development.png" height="32" width="32"/>Full-stack Development</a></td>
-    <td><img src="assets/icons/project.png" height="32" width="32"/>Project Management</td>
-  </tr>
-  <tr>
-    <td><img src="assets/icons/network.png" height="32" width="32"/>Network Engineering</td>
-    <td><img src="assets/icons/cyber-security.png" height="32" width="32"/>Systems Security</td>
-  </tr>
-</table>
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+</style>
+<div class="row">
+  <div class="column" style="margin-bottom: 10px"><a href="automation.html"><img src="assets/icons/monitor.png" height="32" width="32"/><h3>Data Analysis</h3></a></div>
+  <div class="column" style="margin-bottom: 10px"><a href="automation.html">I specialize in analyzing data, trends, customers and processes clearly presented in reports, tools or dashboards.</div>
+  <div class="column" style="margin-bottom: 10px"><a href="analytics.html"><img src="assets/icons/data.png" height="32" width="32"/><h3>Data Analytics</h3></a></div>
+  <div class="column" style="margin-bottom: 10px"><a href="analytics.html">Get more value from your data with forecasting models and machine learning.</div>
+</div>
+<div class="row">
+  <div class="column" style="margin-bottom: 10px"><a href="code.html"><img src="assets/icons/app-development.png" height="32" width="32"/><h3>Full-stack Development</h3></a></div>
+  <div class="column" style="margin-bottom: 10px"><a href="code.html">As a developer, I add portability and function to your data and automation to your systems.</div>
+  <div class="column" style="margin-bottom: 10px"><a href="project.html"><img src="assets/icons/project.png" height="32" width="32"/><h3>Project Management</h3></a></div>
+  <div class="column" style="margin-bottom: 10px"><a href="project.html">I specialize in analyzing data, trends, customers and processes<p>clearly presented in reports, tools or dashboards.</p></div>
+</div>
+<div class="row">
+  <div class="column" style="margin-bottom: 10px"><a href="netArch.html"><img src="assets/icons/network.png" height="32" width="32"/><h3>Network Engineering</h3></a></div>
+  <div class="column" style="margin-bottom: 10px"><a href="netArch.html">From 20+ years in the Network Architecture and Security Engineering I bring with me an in-depth knowledge of networking, security and Business Systems Analysis.</div>
+  <div class="column" style="margin-bottom: 10px"><a href="security.html"><img src="assets/icons/hormones.png" height="32" width="32"/><h3>Systems Science</h3></a></div>
+  <div class="column" style="margin-bottom: 10px"><a href="netArch.html">While at Portland State University my degree used Data Science and Empirical Analysis to study interdependencies and impact between any number of complex systems.</div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
