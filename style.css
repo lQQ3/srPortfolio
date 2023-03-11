@@ -32,6 +32,12 @@ section {
 
 div {
 	text-align: center;
+
+}
+
+.content {
+	text-align: center;
+	width: 95%;
 }
 
 .text-center {
