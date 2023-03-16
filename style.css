@@ -1,10 +1,11 @@
 body {
-	background-image: url("assets/lake.jpg");
+	background-image: url("assets/tech.jpg");
+	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 95%;
 	height: 75%;
-	color: #482ff7;
+	color: #101010;
 	padding: 25px;
 	font-family: sans-serif;
 }
